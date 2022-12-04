@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* body{
+    background-color: aqua;
+} */
+img:hover {
+  position: relative;
+  display: block;
+  left: -10px;
+  top: -10px;
+}
+
+.card {
+  margin-top: 1rem;
+  padding-bottom: 30px;
+  border-radius: 50px !important;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9,
+      -20px -20px 60px #ffffff;
+}
+
+
+
+.match_logoteam {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.match_row-vs {
+  margin: 0, auto;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg,
+          rgba(255, 0, 0, 1) 0%,
+          rgba(0, 5, 255, 1) 100%);
+
+}
+
+.text-xxl {
+  font-size: 40px;
+}
+
+.text_center {
+  text-align: center;
+}
